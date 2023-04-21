@@ -19,8 +19,8 @@ exclude = '''
   )/
   | get_version.py
   | versioneer.py
-  | package-template/_version.py
-  | package-template/due.py
+  | python_course/_version.py
+  | python_course/due.py
 )
 '''
 

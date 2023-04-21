@@ -1,17 +1,17 @@
-# package-template
+# python_course
 A template repo to use for new repositories.
 
-[![Latest Version](https://img.shields.io/pypi/v/package-template.svg)](https://pypi.python.org/pypi/package-template/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/package-template.svg)](https://pypi.python.org/pypi/package-template/)
+[![Latest Version](https://img.shields.io/pypi/v/python_course.svg)](https://pypi.python.org/pypi/python_course/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/python_course.svg)](https://pypi.python.org/pypi/python_course/)
 [![DOI](https://zenodo.org/badge/111111.svg)](https://zenodo.org/badge/latestdoi/111111)
 [![License](https://img.shields.io/badge/License-LGPL%202.1-blue.svg)](https://opensource.org/licenses/LGPL-2.1)
-[![CircleCI](https://circleci.com/gh/package-template/package-template.svg?style=shield)](https://circleci.com/gh/package-template/package-template)
-[![Documentation Status](https://readthedocs.org/projects/package-template/badge/?version=latest)](http://package-template.readthedocs.io/en/latest/?badge=latest)
-[![Codecov](https://codecov.io/gh/package-template/package-template/branch/main/graph/badge.svg)](https://codecov.io/gh/package-template/package-template)
+[![CircleCI](https://circleci.com/gh/python_course/python_course.svg?style=shield)](https://circleci.com/gh/python_course/python_course)
+[![Documentation Status](https://readthedocs.org/projects/python_course/badge/?version=latest)](http://python_course.readthedocs.io/en/latest/?badge=latest)
+[![Codecov](https://codecov.io/gh/python_course/python_course/branch/main/graph/badge.svg)](https://codecov.io/gh/python_course/python_course)
 
 ## Instructions
 
-1. Replace `package-template` with the new repo name across the whole repository.
+1. Replace `python_course` with the new repo name across the whole repository.
 1. Enable the GitHub repository on Zenodo.
 1. Set up the GitHub repository on CircleCI.
 1. Set up the GitHub repository on ReadTheDocs.

@@ -1,1 +1,1 @@
-package-template/_version.py export-subst
+python_course/_version.py export-subst

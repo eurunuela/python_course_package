@@ -1,6 +1,6 @@
 .. _api_ref:
 
-.. currentmodule:: package-template
+.. currentmodule:: python_course
 
 ###
 API
@@ -10,21 +10,21 @@ API
 .. _api_module_ref:
 
 **************************************************
-:mod:`package-template.module`: Module description
+:mod:`python_course.module`: Module description
 **************************************************
 
-.. automodule:: package-template.module
+.. automodule:: python_course.module
    :no-members:
    :no-inherited-members:
 
-.. currentmodule:: package-template.module
+.. currentmodule:: python_course.module
 
 .. autosummary::
    :toctree: generated/
    :template: class.rst
 
-   package-template.module.Class
+   python_course.module.Class
 
    :template: function.rst
 
-   package-template.module.function
+   python_course.module.function
