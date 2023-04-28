@@ -1,7 +1,7 @@
 import argparse
 import datetime
-from os import path as op
 import logging
+from os import path as op
 
 from workout_analysis.hr_zones import assign_hr_zone
 from workout_analysis.io import read_hr_data
@@ -31,13 +31,16 @@ def workout_analysis(infile, outfile):
     logname = op.join(out_dir, (basename + start_time + "." + extension))
     setup_loggers(logname)
 
-    print("Hello")
-    LGR.info("Hello")
+    LGR.info("Reading data")
     df = read_hr_data(infile)
 
+    LGR.info("Assigning HR zones")
     df_hr_assigned = assign_hr_zone(df)
 
+    LGR.info("Creating and saving graph")
     create_hr_graph(df_hr_assigned, outfile)
+
+    LGR.info("Finished")
 
     teardown_loggers()
 

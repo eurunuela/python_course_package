@@ -2,6 +2,18 @@ import numpy as np
 
 
 def assign_hr_zone(df):
+    """Assigns HR zone to each HR value in the dataframe
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        Dataframe containing HR data
+
+    Returns
+    -------
+    df : pandas.DataFrame
+        Dataframe containing HR data with HR zone column
+    """
     hr_zone = np.zeros(len(df["HR"]))
 
     for hr_idx, hr in enumerate(df["HR"]):

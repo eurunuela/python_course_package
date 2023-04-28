@@ -1,6 +1,6 @@
-# Contributing to `python_course`
+# Contributing to `workout_analysis`
 
-Welcome to the `python_course` repository! We're excited you're here and want to contribute.
+Welcome to the `workout_analysis` repository! We're excited you're here and want to contribute.
 
 These guidelines are designed to make it as easy as possible to get involved.
 If you have any questions that aren't discussed below, please let us know by opening an [issue][link_issues]!
@@ -29,16 +29,16 @@ will help you find an issue to contribute to. Thanks so much!
 
 ## Joining the conversation
 
-`python_course` is a young project maintained by a growing group of enthusiastic developers&mdash; and we're excited to have you join!
+`workout_analysis` is a young project maintained by a growing group of enthusiastic developers&mdash; and we're excited to have you join!
 Most of our discussions will take place on open [issues][link_issues].
 We also maintain a [gitter chat room][link_gitter] for more informal conversations and general project updates.
 
 There is significant cross-talk between these two spaces, and we look forward to hearing from you in either venue!
-As a reminder, we expect all contributions to `python_course` to adhere to our [code of conduct][link_coc].
+As a reminder, we expect all contributions to `workout_analysis` to adhere to our [code of conduct][link_coc].
 
 ## Contributing small documentation changes
 If you are new to GitHub and just have a small documentation change
-recommendation, please submit it to [our e-mail address](mailto:python_course.devs@gmail.com)
+recommendation, please submit it to [our e-mail address](mailto:workout_analysis.devs@gmail.com)
 and one of our developers will add it to the documentation directly.
 
 ## Contributing through GitHub
@@ -61,7 +61,7 @@ GitHub has a helpful page on
 Every project on GitHub uses [issues][link_issues], [milestones][link_milestones],
 and [project boards][link_project_boards] slightly differently.
 
-The following outlines how the ``python_course`` developers think about these different tools.
+The following outlines how the ``workout_analysis`` developers think about these different tools.
 
 * **Issues** are individual pieces of work that need to be completed to move the project forwards.
 A general guideline: if you find yourself tempted to write a great big issue that
@@ -77,9 +77,9 @@ is difficult to describe as one unit of work, please consider splitting it into 
     Any new discussion on the issue will remove the `stale` label, and prevent it from closing.
     So, if theres's a discussion you think it not yet resolved, please jump in !
 
-* **Milestones** are the link between the issues and the high level strategy for the ``python_course`` project.
+* **Milestones** are the link between the issues and the high level strategy for the ``workout_analysis`` project.
 Contributors new and old are encouraged to take a look at the milestones to see how we are progressing
-towards ``python_course``'s shared vision.
+towards ``workout_analysis``'s shared vision.
 
     Issues are assigned to these milestones by the maintainers.
     If you feel that an issue should be assigned to a specific milestone but the maintainers have not done so, just ask!
@@ -111,32 +111,32 @@ The current list of labels are [here][link_labels] and include:
 
 ## Making a change
 
-We appreciate all contributions to `python_course`, but those accepted fastest will follow a workflow similar to the following:
+We appreciate all contributions to `workout_analysis`, but those accepted fastest will follow a workflow similar to the following:
 
 ### 1. Comment on an existing issue or [open a new issue][link_createissue] referencing your addition
 
-This allows other members of the `python_course` development team to confirm that you aren't overlapping with work that's currently underway and that everyone is on the same page with the goal of the work you're going to carry out.
+This allows other members of the `workout_analysis` development team to confirm that you aren't overlapping with work that's currently underway and that everyone is on the same page with the goal of the work you're going to carry out.
 
 [This blog][link_pushpullblog] is a nice explanation of why putting this work in up front is so useful to everyone involved.
 
-### 2. [Fork][link_fork] the [python_course repository][link_python_course] to your GitHub profile
+### 2. [Fork][link_fork] the [workout_analysis repository][link_workout_analysis] to your GitHub profile
 
-This is now your own unique and online copy of `python_course`. Changes here won't affect anyone else's work, so it's a safe space to explore edits to the code!
+This is now your own unique and online copy of `workout_analysis`. Changes here won't affect anyone else's work, so it's a safe space to explore edits to the code!
 
-Remember to [clone your fork][link_clonerepo] of `python_course` to your local machine, which will allow you to make local changes to `python_course`.
+Remember to [clone your fork][link_clonerepo] of `workout_analysis` to your local machine, which will allow you to make local changes to `workout_analysis`.
 
 Make sure to always [keep your fork up to date][link_updateupstreamwiki] with the upstream repository before and after making changes.
 
 ### 3. Run the developer setup
 
-To test a change, you may need to set up your local repository to run a `python_course` workflow.
+To test a change, you may need to set up your local repository to run a `workout_analysis` workflow.
 To do so, run
 ```
 pip install -e .[all]
 ```
-from within your local `python_course` repository. This should ensure all packages are correctly organized and linked on your user profile.
+from within your local `workout_analysis` repository. This should ensure all packages are correctly organized and linked on your user profile.
 
-We recommend including the `[all]` flag when you install `python_course` so that "extra" requirements necessary for running tests and building the documentation will also be installed.
+We recommend including the `[all]` flag when you install `workout_analysis` so that "extra" requirements necessary for running tests and building the documentation will also be installed.
 
 Once you've run this, your repository should be set for most changes (i.e., you do not have to re-run with every change).
 
@@ -160,7 +160,7 @@ Then, make your new branch.
 git checkout -b MYBRANCH
 ```
 
-Please make sure to review the `python_course` [style conventions](#style-guide) and test your changes.
+Please make sure to review the `workout_analysis` [style conventions](#style-guide) and test your changes.
 
 If you are new to ``git`` and would like to work in a graphical user interface (GUI), there are several GUI git clients that you may find helpful, such as
 - [GitKraken][link_git_kraken]
@@ -172,7 +172,7 @@ If you are new to ``git`` and would like to work in a graphical user interface (
 
 You can run style checks by running the following:
 ```
-flake8 $python_courseDIR/python_course
+flake8 $workout_analysisDIR/workout_analysis
 ```
 
 and unit/integration tests by running `pytest` (more details below).
@@ -183,22 +183,22 @@ Regardless, when you open a Pull Request, we use CircleCI to run all unit and in
 
 All tests; final checks before pushing
 ```
-pytest $python_courseDIR/python_course/tests
+pytest $workout_analysisDIR/workout_analysis/tests
 ```
 Unit tests and linting only
 ```
-pytest --skipintegration $python_courseDIR/python_course/tests
+pytest --skipintegration $workout_analysisDIR/workout_analysis/tests
 ```
 One test file only
 ```
-pytest $python_courseDIR/python_course/tests/test_file.py
+pytest $workout_analysisDIR/workout_analysis/tests/test_file.py
 ```
 Test one function in a file
 ```
-pytest -k my_function $python_courseDIR/python_course/tests/test_file.py
+pytest -k my_function $workout_analysisDIR/workout_analysis/tests/test_file.py
 ```
 
-from within your local `python_course` repository.
+from within your local `workout_analysis` repository.
 The test run will indicate the number of passes and failures.
 Most often, the failures give enough information to determine the cause; if not, you can
 refer to the [pytest documentation][link_pytest] for more details on the failure.
@@ -209,9 +209,9 @@ For changes to documentation, we suggest rendering the HTML files locally in ord
 ```
 make html
 ```
-from the `docs` directory in your local `python_course` repository. You should then be able to access the rendered files in the `docs/_build` directory, and view them in your browser.
+from the `docs` directory in your local `workout_analysis` repository. You should then be able to access the rendered files in the `docs/_build` directory, and view them in your browser.
 
-Most of `python_course`'s documentation is written in restructuredText, rather than Markdown.
+Most of `workout_analysis`'s documentation is written in restructuredText, rather than Markdown.
 Among many other differences, restructuredText allows a great deal of flexibility in how section headings are defined.
 For consistency, we have adopted the following standard for our section headings:
 
@@ -239,7 +239,7 @@ git push -u origin MYBRANCH
 ```
 
 and GitHub will respond by giving you a link to open a pull request to
-python_course/python_course.
+workout_analysis/workout_analysis.
 Once you have pushed changes to the repository, please do not use commands such as rebase and
 amend, as they will rewrite your history and make it difficult for developers to work with you on
 your pull request. You can read more about that [here][link_git_rewriting].
@@ -277,7 +277,7 @@ Thanks for contributing!
 - [ ] Take a look at the automatically generated readthedocs for your PR (Show all checks -> continuous-documentation/readthedocs -> Details)
 
 ### Comprehensive Developer Guide
-For additional, in-depth information on contributing to `python_course`, please see our Developing Guidelines on [readthedocs][link_developing_rtd].
+For additional, in-depth information on contributing to `workout_analysis`, please see our Developing Guidelines on [readthedocs][link_developing_rtd].
 
 ## Style Guide
 
@@ -287,7 +287,7 @@ We encourage extensive documentation.
 The python code itself should follow [PEP8][link_pep8] convention
 whenever possible, with at most about 500 lines of code (not including docstrings) per script.
 
-Additionally, we have adopted a purely functional approach in `python_course`, so we
+Additionally, we have adopted a purely functional approach in `workout_analysis`, so we
 avoid defining our own classes within the library.
 
 Our documentation is written in [ReStructuredText](#writing-in-restructuredtext),
@@ -295,11 +295,11 @@ which we explain in more detail below.
 
 ### Writing in ReStructuredText
 
-The documentation for `python_course` is written using [ReStructuredText][restructuredtext].
+The documentation for `workout_analysis` is written using [ReStructuredText][restructuredtext].
 Using this markup language allows us to create an online site using the [Sphinx][sphinx]
 documentation generator.
 We then host the generated Sphinx site on [ReadTheDocs][readthedocs],
-to provide an easily accessible space for accessing `python_course` documentation.
+to provide an easily accessible space for accessing `workout_analysis` documentation.
 
 What this means is that we need to add any updates to the documentation in ReStructuredText,
 or `rst`.
@@ -331,7 +331,7 @@ You're awesome. :wave::smiley:
 
 [link_git]: https://git-scm.com
 [link_github]: https://github.com/
-[link_python_course]: https://github.com/python_course/python_course
+[link_workout_analysis]: https://github.com/workout_analysis/workout_analysis
 [link_signupinstructions]: https://help.github.com/articles/signing-up-for-a-new-github-account
 
 [writing_formatting_github]: https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github
@@ -341,18 +341,18 @@ You're awesome. :wave::smiley:
 [sphinx]: http://www.sphinx-doc.org/en/master/index.html
 [readthedocs]: https://docs.readthedocs.io/en/latest/index.html
 
-[link_issues]: https://github.com/python_course/python_course/issues
-[link_milestones]: https://github.com/python_course/python_course/milestones/
-[link_project_boards]: https://github.com/python_course/python_course/projects
-[link_gitter]: https://gitter.im/python_course/python_course
-[link_coc]: https://github.com/python_course/python_course/blob/main/CODE_OF_CONDUCT.md
+[link_issues]: https://github.com/workout_analysis/workout_analysis/issues
+[link_milestones]: https://github.com/workout_analysis/workout_analysis/milestones/
+[link_project_boards]: https://github.com/workout_analysis/workout_analysis/projects
+[link_gitter]: https://gitter.im/workout_analysis/workout_analysis
+[link_coc]: https://github.com/workout_analysis/workout_analysis/blob/main/CODE_OF_CONDUCT.md
 [link_stale-bot]: https://github.com/probot/stale
 
-[link_labels]: https://github.com/python_course/python_course/labels
-[link_paused]: https://github.com/python_course/python_course/labels/paused
-[link_bugs]: https://github.com/python_course/python_course/labels/bug
-[link_helpwanted]: https://github.com/python_course/python_course/labels/help%20wanted
-[link_enhancement]: https://github.com/python_course/python_course/labels/enhancement
+[link_labels]: https://github.com/workout_analysis/workout_analysis/labels
+[link_paused]: https://github.com/workout_analysis/workout_analysis/labels/paused
+[link_bugs]: https://github.com/workout_analysis/workout_analysis/labels/bug
+[link_helpwanted]: https://github.com/workout_analysis/workout_analysis/labels/help%20wanted
+[link_enhancement]: https://github.com/workout_analysis/workout_analysis/labels/enhancement
 
 [link_kanban]: https://en.wikipedia.org/wiki/Kanban_board
 [link_pullrequest]: https://help.github.com/articles/creating-a-pull-request/
@@ -369,13 +369,13 @@ You're awesome. :wave::smiley:
 [link_pep8]: https://www.python.org/dev/peps/pep-0008/
 [link_rst_guide]: http://docs.sphinxdocs.com/en/latest/step-1.html
 
-[link_contributors]: https://github.com/python_course/python_course/graphs/contributors
+[link_contributors]: https://github.com/workout_analysis/workout_analysis/graphs/contributors
 [link_all-contributors-spec]: https://allcontributors.org/docs/en/specification
 [link_all-contributors-bot]: https://allcontributors.org/docs/en/bot/overview
 [link_all-contributors-bot-usage]: https://allcontributors.org/docs/en/bot/usage
 [link_stemmrolemodels]: https://github.com/KirstieJane/STEMMRoleModels
 [link_pytest]: https://docs.pytest.org/en/latest/usage.html
-[link_developing_rtd]: https://python_course.readthedocs.io/en/latest/developing.html
+[link_developing_rtd]: https://workout_analysis.readthedocs.io/en/latest/developing.html
 
 [link_git_kraken]: https://www.gitkraken.com/
 [link_github_desktop]: https://desktop.github.com/

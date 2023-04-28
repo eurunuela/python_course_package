@@ -1,2 +1,2 @@
 include versioneer.py
-include python_course/_version.py
+include workout_analysis/_version.py

@@ -15,7 +15,7 @@ coverage:
         threshold: 0
 
 ignore:
-  - "python_course/tests/"
-  - "python_course/due.py"
-  - "python_course/_version.py"
-  - "python_course/info.py"
+  - "workout_analysis/tests/"
+  - "workout_analysis/due.py"
+  - "workout_analysis/_version.py"
+  - "workout_analysis/info.py"

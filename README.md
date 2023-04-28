@@ -1,17 +1,17 @@
-# python_course
+# workout_analysis
 A template repo to use for new repositories.
 
-[![Latest Version](https://img.shields.io/pypi/v/python_course.svg)](https://pypi.python.org/pypi/python_course/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/python_course.svg)](https://pypi.python.org/pypi/python_course/)
+[![Latest Version](https://img.shields.io/pypi/v/workout_analysis.svg)](https://pypi.python.org/pypi/workout_analysis/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/workout_analysis.svg)](https://pypi.python.org/pypi/workout_analysis/)
 [![DOI](https://zenodo.org/badge/111111.svg)](https://zenodo.org/badge/latestdoi/111111)
 [![License](https://img.shields.io/badge/License-LGPL%202.1-blue.svg)](https://opensource.org/licenses/LGPL-2.1)
-[![CircleCI](https://circleci.com/gh/python_course/python_course.svg?style=shield)](https://circleci.com/gh/python_course/python_course)
-[![Documentation Status](https://readthedocs.org/projects/python_course/badge/?version=latest)](http://python_course.readthedocs.io/en/latest/?badge=latest)
-[![Codecov](https://codecov.io/gh/python_course/python_course/branch/main/graph/badge.svg)](https://codecov.io/gh/python_course/python_course)
+[![CircleCI](https://circleci.com/gh/workout_analysis/workout_analysis.svg?style=shield)](https://circleci.com/gh/workout_analysis/workout_analysis)
+[![Documentation Status](https://readthedocs.org/projects/workout_analysis/badge/?version=latest)](http://workout_analysis.readthedocs.io/en/latest/?badge=latest)
+[![Codecov](https://codecov.io/gh/workout_analysis/workout_analysis/branch/main/graph/badge.svg)](https://codecov.io/gh/workout_analysis/workout_analysis)
 
 ## Instructions
 
-1. Replace `python_course` with the new repo name across the whole repository.
+1. Replace `workout_analysis` with the new repo name across the whole repository.
 1. Enable the GitHub repository on Zenodo.
 1. Set up the GitHub repository on CircleCI.
 1. Set up the GitHub repository on ReadTheDocs.
